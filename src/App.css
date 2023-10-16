@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.main{
+    border: 1px solid;
+    width: 260px;
+    padding: 5px;
+}
+.fname{
+   padding-top: 5px;
+    display: flex;
+}
+.name{
+    width: 80px;
+    border: 1px solid;
+    padding-top: 5px;
+}
+.gender{
+    width: 175px;
+    border: 1px solid;
+}
+.marital{
+    width: 175px;
+    border: 1px solid;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main1{
+    border: 1px solid;
+    width: 300px;
+    padding-top: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name1{
+    display: flex;
+    padding: 5px;
+    
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#outputName{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
 }
+#outputGender{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
 
-.App-link {
-  color: #61dafb;
 }
+#outputMarital{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#outputDep{
+    border: 1px solid;
+    height: 20px;
+    width: 300px;
+    padding-top: 5px;
+
+}
+#outputTA{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
+
+}
+#outputDA{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
+
+}
+#outputHRA{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
+
+}
+#outputLIC{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
+
+}
+#outputPF{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top: 5px;
+
+}
+#outputNET{
+    border: 1px solid;
+    height: 20px;
+    width: 260px;
+    padding-top:5px
+
+}
+.names{
+    width: 135px;
+    border: 1px solid;
+    padding-top: 5px;
 }
